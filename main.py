@@ -6,7 +6,7 @@ app.state.model= load_model()
 app.state.prep_scaler= load_prep()
 @app.get("/")
 def read_root():
-    return {"test": "This is for code testing, please check the docs for more info"}
+    return {"test": "This is for code testing , please check the docs for more info"}
 
  #input is a string
  #output is only builtin python data type
